@@ -1,0 +1,13 @@
+name: Manhunt
+version: '1.0'
+main: dev.prinke.manhunt.Manhunt
+api-version: '1.20'
+authors: [Prinke]
+website: https://crownedinteractive.com
+commands:
+  manhunt:
+    description: The main command for the Manhunt plugin
+    aliases: [mh]
+    permission: manhunt.admin
+    default: op
+    usage: /<command> <start|runner> [add] [player]
